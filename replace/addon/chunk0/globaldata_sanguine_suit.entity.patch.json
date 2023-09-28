@@ -1,0 +1,119 @@
+{
+	"tempHash": "00097AA87B144150",
+	"tbluHash": "00E738E7CF7A35E1",
+	"patch": [
+		{
+			"AddEntity": [
+				"feedd141f4db9f2d",
+				{
+					"parent": "0ba8ea9278df2079",
+					"name": "CHAR_Global_Hero_Sanguine_Suit_M",
+					"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+					"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+					"properties": {
+						"m_eActorType": { "type": "EActorType", "value": "eAT_Hitman" },
+						"m_eSoundFootwearType": { "type": "EHM5SoundFootwearType", "value": "EFWT_LEATHER" },
+						"m_sId": { "type": "ZGuid", "value": "8faefc53-b5fe-4a9d-9c6f-fb8d3a6c69f1" },
+						"m_bCanCallForHelp": { "type": "bool", "value": true },
+						"m_sCommonName": { "type": "ZString", "value": "CHAR_Global_Hero_Sanguine_Suit_M" },
+						"m_sTitle": { "type": "ZString", "value": "Sanguine Suit" },
+						"m_eOutfitAICategory": { "type": "EOutfitAICategory", "value": "OAC_47STARTCLASSY" },
+						"m_rNameTextResource": {
+							"type": "ZRuntimeResourceID",
+							"value": { "resource": "00062137AC3EAF9E", "flag": "5F" }
+						},
+						"m_rDescriptionTextResource": {
+							"type": "ZRuntimeResourceID",
+							"value": { "resource": "00C761C385910473", "flag": "5F" }
+						},
+						"m_bHeroDisguiseAvailable": { "type": "bool", "value": true },
+						"m_bIsHitmanSuit": { "type": "bool", "value": true },
+						"m_aCharSets": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["feed1b42601a300c"],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed1b42601a300c",
+				{
+					"parent": "feedd141f4db9f2d",
+					"name": "CHARSET_Agent47_Global_Hero_Sanguine_Suit",
+					"factory": "0033F5E0547F5073",
+					"blueprint": "00D95B95106B3D18"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feedebb674f1007c",
+				{
+					"parent": "feedd141f4db9f2d",
+					"name": "Keyword_Prof_Class_Default",
+					"factory": "007A51A2AFEC0D1A",
+					"blueprint": "00B0282A41C1CF2E",
+					"properties": {
+						"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["feedd141f4db9f2d"] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed52c8fe994848",
+				{
+					"parent": "feedd141f4db9f2d",
+					"name": "KeywordEntity_FOLEY_SUIT47",
+					"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entityblueprint",
+					"properties": { "m_rHolder": { "type": "SEntityTemplateReference", "value": "feedd141f4db9f2d" } }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed3a181b17b5e1",
+				{
+					"parent": "feedd141f4db9f2d",
+					"name": "Prof_Hero_Sanguine_Suit",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_hero_black_suit.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_hero_black_suit.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["feedd141f4db9f2d"] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feeded246329d893",
+				{
+					"parent": "feedd141f4db9f2d",
+					"name": "Keyword_FOLEY_VR_OUTFIT_LEATHERGLOVES",
+					"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_vr_outfit_leathergloves.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_vr_outfit_leathergloves.entitytemplate].pc_entityblueprint",
+					"properties": { "m_rHolder": { "type": "SEntityTemplateReference", "value": "feedd141f4db9f2d" } }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed90960a785b89",
+				{
+					"parent": "feedd141f4db9f2d",
+					"name": "Prof_Agent47",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["feedd141f4db9f2d"] }
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

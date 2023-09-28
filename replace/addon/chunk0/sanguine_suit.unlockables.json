@@ -1,0 +1,25 @@
+{
+	"TOKEN_OUTFIT_HERO_SANGUINE_SUIT": {
+		"Id": "TOKEN_OUTFIT_HERO_SANGUINE_SUIT",
+		"Guid": "bd5fdc66-1661-42b1-ad42-a8e3fd2eaa8a",
+		"Type": "disguise",
+		"Subtype": "classic",
+		"ImageId": "",
+		"RMTPrice": -1,
+		"GamePrice": -1,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Quality": 2,
+			"Rarity": "common",
+			"LoadoutSlot": "disguise",
+			"IsConsumable": false,
+			"RepositoryId": "8faefc53-b5fe-4a9d-9c6f-fb8d3a6c69f1",
+			"OrderIndex": 21
+		},
+		"Rarity": "common"
+	}
+}

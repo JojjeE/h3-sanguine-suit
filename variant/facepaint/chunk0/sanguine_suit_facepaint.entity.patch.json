@@ -1,0 +1,24 @@
+{
+	"tempHash": "00EF9DB22DE35D85",
+	"tbluHash": "00E910C0F204AFA4",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"feedf511f3cb15cd",
+				{ "AddProperty": ["Texture2D_01_enab", { "type": "bool", "value": true }] }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"feedf511f3cb15cd",
+				{
+					"AddProperty": [
+						"Texture2D_01",
+						{ "type": "ZRuntimeResourceID", "value": { "resource": "00685B218981D8CB", "flag": "5F" } }
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

@@ -1,9 +1,515 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
 	"version": "0.1.0",
-	"id": "YourPreferredAlias.AnIDForTheMod",
-	"name": "Test Mod",
-	"description": "A truly amazing mod",
-	"authors": ["Your Preferred Alias"],
-	"frameworkVersion": "2.25.1"
+	"id": "Jojje.SanguineSuit",
+	"name": "Sanguine Suit",
+	"description": "Strut your stuff on the catwalk with the latest in fashion. From the Sanguine Paris collection designed and curated by Sebastian Sato comes a bold new suit ensemble with a crisp light to dark gradient. Face paint optional.",
+	"authors": ["Jojje", "sallylikesgore"],
+	"frameworkVersion": "2.25.1",
+	"contentFolders": ["base"],
+	"options": [
+		{
+			"group": "Replace",
+			"name": "Peacock Addon",
+			"type": "select",
+			"tooltip": "Install the suit to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
+			"enabledByDefault": true,
+			"contentFolders": ["replace/addon"],
+			"blobsFolders": ["blobs/addon"],
+			"localisedLines": {
+				"00C761C385910473": "UI_TOKEN_OUTFIT_HERO_SANGUINE_SUIT_DESC",
+				"00062137AC3EAF9E": "UI_TOKEN_OUTFIT_HERO_SANGUINE_SUIT_NAME"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_SANGUINE_SUIT_DESC": "Strut your stuff on the catwalk with the latest in fashion. From the Sanguine Paris collection designed and curated by Sebastian Sato comes a bold new suit ensemble with a crisp light to dark gradient. Face paint optional.",
+					"UI_TOKEN_OUTFIT_HERO_SANGUINE_SUIT_NAME": "Sanguine Suit"
+				},
+				"french": {
+					"UI_TOKEN_OUTFIT_HERO_SANGUINE_SUIT_DESC": "Faites-vous remarquer sur les podiums avec les dernières nouveautés de la mode. La collection Sanguine Paris, conçue et préparée par Sebastian Sato, propose un nouvel ensemble de costumes audacieux avec un dégradé clair-foncé. Peinture faciale en option.",
+					"UI_TOKEN_OUTFIT_HERO_SANGUINE_SUIT_NAME": "Le costume Sanguine"
+				},
+				"italian": {
+					"UI_TOKEN_OUTFIT_HERO_SANGUINE_SUIT_DESC": "Sfoggiate le vostre abilità in passerella con le ultime novità della moda. Dalla collezione Sanguine Paris, disegnata e curata da Sebastian Sato, arriva un nuovo audace ensemble di abiti con una sfumatura chiara e scura. Vernice per il viso opzionale.",
+					"UI_TOKEN_OUTFIT_HERO_SANGUINE_SUIT_NAME": "Abito Sanguine"
+				},
+				"german": {
+					"UI_TOKEN_OUTFIT_HERO_SANGUINE_SUIT_DESC": "Zeigen Sie sich auf dem Laufsteg mit der neuesten Mode. Aus der von Sebastian Sato entworfenen und kuratierten Sanguine Paris-Kollektion kommt ein gewagtes neues Anzug-Ensemble mit einem knackigen Hell-Dunkel-Verlauf. Gesichtsbemalung optional.",
+					"UI_TOKEN_OUTFIT_HERO_SANGUINE_SUIT_NAME": "Der Sanguine Anzug"
+				},
+				"spanish": {
+					"UI_TOKEN_OUTFIT_HERO_SANGUINE_SUIT_DESC": "Lúcete en la pasarela con lo último en moda. De la colección Sanguine Paris, diseñada y comisariada por Sebastian Sato, llega un nuevo y atrevido conjunto de traje con un nítido degradado de claro a oscuro. Pintura facial opcional.",
+					"UI_TOKEN_OUTFIT_HERO_SANGUINE_SUIT_NAME": "Traje Sanguine"
+				},
+				"russian": {
+					"UI_TOKEN_OUTFIT_HERO_SANGUINE_SUIT_DESC": "Продемонстрируйте себя на подиуме, используя последние достижения моды. Из коллекции Сэнгвин Париж, разработанной и курируемой Себастьян Сато, вышел новый смелый ансамбль костюма с четким градиентом от светлого к темному. Краска для лица не обязательна.",
+					"UI_TOKEN_OUTFIT_HERO_SANGUINE_SUIT_NAME": "Костюм «Сэнгвин»"
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "Casual Suit with Gloves",
+			"type": "select",
+			"contentFolders": ["replace/bangkok"],
+			"blobsFolders": ["blobs/bangkok"],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"2741280242": "Strut your stuff on the catwalk with the latest in fashion. From the Sanguine Paris collection designed and curated by Sebastian Sato comes a bold new suit ensemble with a crisp light to dark gradient. Face paint optional.",
+						"4086875141": "Sanguine Suit"
+					},
+					"french": {
+						"2741280242": "Faites-vous remarquer sur les podiums avec les dernières nouveautés de la mode. La collection Sanguine Paris, conçue et préparée par Sebastian Sato, propose un nouvel ensemble de costumes audacieux avec un dégradé clair-foncé. Peinture faciale en option.",
+						"4086875141": "Le costume Sanguine"
+					},
+					"italian": {
+						"2741280242": "Sfoggiate le vostre abilità in passerella con le ultime novità della moda. Dalla collezione Sanguine Paris, disegnata e curata da Sebastian Sato, arriva un nuovo audace ensemble di abiti con una sfumatura chiara e scura. Vernice per il viso opzionale.",
+						"4086875141": "Abito Sanguine"
+					},
+					"german": {
+						"2741280242": "Zeigen Sie sich auf dem Laufsteg mit der neuesten Mode. Aus der von Sebastian Sato entworfenen und kuratierten Sanguine Paris-Kollektion kommt ein gewagtes neues Anzug-Ensemble mit einem knackigen Hell-Dunkel-Verlauf. Gesichtsbemalung optional.",
+						"4086875141": "Der Sanguine Anzug"
+					},
+					"spanish": {
+						"2741280242": "Lúcete en la pasarela con lo último en moda. De la colección Sanguine Paris, diseñada y comisariada por Sebastian Sato, llega un nuevo y atrevido conjunto de traje con un nítido degradado de claro a oscuro. Pintura facial opcional.",
+						"4086875141": "Traje Sanguine"
+					},
+					"russian": {
+						"2741280242": "Продемонстрируйте себя на подиуме, используя последние достижения моды. Из коллекции Сэнгвин Париж, разработанной и курируемой Себастьян Сато, вышел новый смелый ансамбль костюма с четким градиентом от светлого к темному. Краска для лица не обязательна.",
+						"4086875141": "Костюм «Сэнгвин»"
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "Italian Suit with Gloves",
+			"type": "select",
+			"contentFolders": ["replace/sapienza"],
+			"blobsFolders": ["blobs/sapienza"],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"3346035357": "Strut your stuff on the catwalk with the latest in fashion. From the Sanguine Paris collection designed and curated by Sebastian Sato comes a bold new suit ensemble with a crisp light to dark gradient. Face paint optional.",
+						"3648979387": "Sanguine Suit"
+					},
+					"french": {
+						"3346035357": "Faites-vous remarquer sur les podiums avec les dernières nouveautés de la mode. La collection Sanguine Paris, conçue et préparée par Sebastian Sato, propose un nouvel ensemble de costumes audacieux avec un dégradé clair-foncé. Peinture faciale en option.",
+						"3648979387": "Le costume Sanguine"
+					},
+					"italian": {
+						"3346035357": "Sfoggiate le vostre abilità in passerella con le ultime novità della moda. Dalla collezione Sanguine Paris, disegnata e curata da Sebastian Sato, arriva un nuovo audace ensemble di abiti con una sfumatura chiara e scura. Vernice per il viso opzionale.",
+						"3648979387": "Abito Sanguine"
+					},
+					"german": {
+						"3346035357": "Zeigen Sie sich auf dem Laufsteg mit der neuesten Mode. Aus der von Sebastian Sato entworfenen und kuratierten Sanguine Paris-Kollektion kommt ein gewagtes neues Anzug-Ensemble mit einem knackigen Hell-Dunkel-Verlauf. Gesichtsbemalung optional.",
+						"3648979387": "Der Sanguine Anzug"
+					},
+					"spanish": {
+						"3346035357": "Lúcete en la pasarela con lo último en moda. De la colección Sanguine Paris, diseñada y comisariada por Sebastian Sato, llega un nuevo y atrevido conjunto de traje con un nítido degradado de claro a oscuro. Pintura facial opcional.",
+						"3648979387": "Traje Sanguine"
+					},
+					"russian": {
+						"3346035357": "Продемонстрируйте себя на подиуме, используя последние достижения моды. Из коллекции Сэнгвин Париж, разработанной и курируемой Себастьян Сато, вышел новый смелый ансамбль костюма с четким градиентом от светлого к темному. Краска для лица не обязательна.",
+						"3648979387": "Костюм «Сэнгвин»"
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "Florida Fit with Gloves",
+			"type": "select",
+			"contentFolders": ["replace/miami"],
+			"blobsFolders": ["blobs/miami"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"1774659088": "Sanguine Suit",
+						"3175901226": "Strut your stuff on the catwalk with the latest in fashion. From the Sanguine Paris collection designed and curated by Sebastian Sato comes a bold new suit ensemble with a crisp light to dark gradient. Face paint optional."
+					},
+					"french": {
+						"1774659088": "Le costume Sanguine",
+						"3175901226": "Faites-vous remarquer sur les podiums avec les dernières nouveautés de la mode. La collection Sanguine Paris, conçue et préparée par Sebastian Sato, propose un nouvel ensemble de costumes audacieux avec un dégradé clair-foncé. Peinture faciale en option."
+					},
+					"italian": {
+						"1774659088": "Abito Sanguine",
+						"3175901226": "Sfoggiate le vostre abilità in passerella con le ultime novità della moda. Dalla collezione Sanguine Paris, disegnata e curata da Sebastian Sato, arriva un nuovo audace ensemble di abiti con una sfumatura chiara e scura. Vernice per il viso opzionale."
+					},
+					"german": {
+						"1774659088": "Der Sanguine Anzug",
+						"3175901226": "Zeigen Sie sich auf dem Laufsteg mit der neuesten Mode. Aus der von Sebastian Sato entworfenen und kuratierten Sanguine Paris-Kollektion kommt ein gewagtes neues Anzug-Ensemble mit einem knackigen Hell-Dunkel-Verlauf. Gesichtsbemalung optional."
+					},
+					"spanish": {
+						"1774659088": "Traje Sanguine",
+						"3175901226": "Lúcete en la pasarela con lo último en moda. De la colección Sanguine Paris, diseñada y comisariada por Sebastian Sato, llega un nuevo y atrevido conjunto de traje con un nítido degradado de claro a oscuro. Pintura facial opcional."
+					},
+					"russian": {
+						"1774659088": "Костюм «Сэнгвин»",
+						"3175901226": "Продемонстрируйте себя на подиуме, используя последние достижения моды. Из коллекции Сэнгвин Париж, разработанной и курируемой Себастьян Сато, вышел новый смелый ансамбль костюма с четким градиентом от светлого к темному. Краска для лица не обязательна."
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "Casual Tourist with Gloves",
+			"type": "select",
+			"contentFolders": ["replace/sanfortuna"],
+			"blobsFolders": ["blobs/sanfortuna"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2978719530": "Sanguine Suit",
+						"3533044117": "Strut your stuff on the catwalk with the latest in fashion. From the Sanguine Paris collection designed and curated by Sebastian Sato comes a bold new suit ensemble with a crisp light to dark gradient. Face paint optional."
+					},
+					"french": {
+						"2978719530": "Le costume Sanguine",
+						"3533044117": "Faites-vous remarquer sur les podiums avec les dernières nouveautés de la mode. La collection Sanguine Paris, conçue et préparée par Sebastian Sato, propose un nouvel ensemble de costumes audacieux avec un dégradé clair-foncé. Peinture faciale en option."
+					},
+					"italian": {
+						"2978719530": "Abito Sanguine",
+						"3533044117": "Sfoggiate le vostre abilità in passerella con le ultime novità della moda. Dalla collezione Sanguine Paris, disegnata e curata da Sebastian Sato, arriva un nuovo audace ensemble di abiti con una sfumatura chiara e scura. Vernice per il viso opzionale."
+					},
+					"german": {
+						"2978719530": "Der Sanguine Anzug",
+						"3533044117": "Zeigen Sie sich auf dem Laufsteg mit der neuesten Mode. Aus der von Sebastian Sato entworfenen und kuratierten Sanguine Paris-Kollektion kommt ein gewagtes neues Anzug-Ensemble mit einem knackigen Hell-Dunkel-Verlauf. Gesichtsbemalung optional."
+					},
+					"spanish": {
+						"2978719530": "Traje Sanguine",
+						"3533044117": "Lúcete en la pasarela con lo último en moda. De la colección Sanguine Paris, diseñada y comisariada por Sebastian Sato, llega un nuevo y atrevido conjunto de traje con un nítido degradado de claro a oscuro. Pintura facial opcional."
+					},
+					"russian": {
+						"2978719530": "Костюм «Сэнгвин»",
+						"3533044117": "Продемонстрируйте себя на подиуме, используя последние достижения моды. Из коллекции Сэнгвин Париж, разработанной и курируемой Себастьян Сато, вышел новый смелый ансамбль костюма с четким градиентом от светлого к темному. Краска для лица не обязательна."
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "Summer Suave Suit",
+			"type": "select",
+			"contentFolders": ["replace/summersuave"],
+			"blobsFolders": ["blobs/summersuave"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"134957393": "Sanguine Suit",
+						"2101382595": "Strut your stuff on the catwalk with the latest in fashion. From the Sanguine Paris collection designed and curated by Sebastian Sato comes a bold new suit ensemble with a crisp light to dark gradient. Face paint optional."
+					},
+					"french": {
+						"134957393": "Le costume Sanguine",
+						"2101382595": "Faites-vous remarquer sur les podiums avec les dernières nouveautés de la mode. La collection Sanguine Paris, conçue et préparée par Sebastian Sato, propose un nouvel ensemble de costumes audacieux avec un dégradé clair-foncé. Peinture faciale en option."
+					},
+					"italian": {
+						"134957393": "Abito Sanguine",
+						"2101382595": "Sfoggiate le vostre abilità in passerella con le ultime novità della moda. Dalla collezione Sanguine Paris, disegnata e curata da Sebastian Sato, arriva un nuovo audace ensemble di abiti con una sfumatura chiara e scura. Vernice per il viso opzionale."
+					},
+					"german": {
+						"134957393": "Der Sanguine Anzug",
+						"2101382595": "Zeigen Sie sich auf dem Laufsteg mit der neuesten Mode. Aus der von Sebastian Sato entworfenen und kuratierten Sanguine Paris-Kollektion kommt ein gewagtes neues Anzug-Ensemble mit einem knackigen Hell-Dunkel-Verlauf. Gesichtsbemalung optional."
+					},
+					"spanish": {
+						"134957393": "Traje Sanguine",
+						"2101382595": "Lúcete en la pasarela con lo último en moda. De la colección Sanguine Paris, diseñada y comisariada por Sebastian Sato, llega un nuevo y atrevido conjunto de traje con un nítido degradado de claro a oscuro. Pintura facial opcional."
+					},
+					"russian": {
+						"134957393": "Костюм «Сэнгвин»",
+						"2101382595": "Продемонстрируйте себя на подиуме, используя последние достижения моды. Из коллекции Сэнгвин Париж, разработанной и курируемой Себастьян Сато, вышел новый смелый ансамбль костюма с четким градиентом от светлого к темному. Краска для лица не обязательна."
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "Summer Sightseeing Suit",
+			"type": "select",
+			"contentFolders": ["replace/summersightseeing"],
+			"blobsFolders": ["blobs/summersightseeing"],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"2627471231": "Strut your stuff on the catwalk with the latest in fashion. From the Sanguine Paris collection designed and curated by Sebastian Sato comes a bold new suit ensemble with a crisp light to dark gradient. Face paint optional.",
+						"2814457931": "Sanguine Suit"
+					},
+					"french": {
+						"2627471231": "Faites-vous remarquer sur les podiums avec les dernières nouveautés de la mode. La collection Sanguine Paris, conçue et préparée par Sebastian Sato, propose un nouvel ensemble de costumes audacieux avec un dégradé clair-foncé. Peinture faciale en option.",
+						"2814457931": "Le costume Sanguine"
+					},
+					"italian": {
+						"2627471231": "Sfoggiate le vostre abilità in passerella con le ultime novità della moda. Dalla collezione Sanguine Paris, disegnata e curata da Sebastian Sato, arriva un nuovo audace ensemble di abiti con una sfumatura chiara e scura. Vernice per il viso opzionale.",
+						"2814457931": "Abito Sanguine"
+					},
+					"german": {
+						"2627471231": "Zeigen Sie sich auf dem Laufsteg mit der neuesten Mode. Aus der von Sebastian Sato entworfenen und kuratierten Sanguine Paris-Kollektion kommt ein gewagtes neues Anzug-Ensemble mit einem knackigen Hell-Dunkel-Verlauf. Gesichtsbemalung optional.",
+						"2814457931": "Der Sanguine Anzug"
+					},
+					"spanish": {
+						"2627471231": "Lúcete en la pasarela con lo último en moda. De la colección Sanguine Paris, diseñada y comisariada por Sebastian Sato, llega un nuevo y atrevido conjunto de traje con un nítido degradado de claro a oscuro. Pintura facial opcional.",
+						"2814457931": "Traje Sanguine"
+					},
+					"russian": {
+						"2627471231": "Продемонстрируйте себя на подиуме, используя последние достижения моды. Из коллекции Сэнгвин Париж, разработанной и курируемой Себастьян Сато, вышел новый смелый ансамбль костюма с четким градиентом от светлого к темному. Краска для лица не обязательна.",
+						"2814457931": "Костюм «Сэнгвин»"
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "Casual Undercover",
+			"type": "select",
+			"contentFolders": ["replace/casualundercover"],
+			"blobsFolders": ["blobs/casualundercover"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2052724919": "Sanguine Suit",
+						"3635577953": "Strut your stuff on the catwalk with the latest in fashion. From the Sanguine Paris collection designed and curated by Sebastian Sato comes a bold new suit ensemble with a crisp light to dark gradient. Face paint optional."
+					},
+					"french": {
+						"2052724919": "Le costume Sanguine",
+						"3635577953": "Faites-vous remarquer sur les podiums avec les dernières nouveautés de la mode. La collection Sanguine Paris, conçue et préparée par Sebastian Sato, propose un nouvel ensemble de costumes audacieux avec un dégradé clair-foncé. Peinture faciale en option."
+					},
+					"italian": {
+						"2052724919": "Abito Sanguine",
+						"3635577953": "Sfoggiate le vostre abilità in passerella con le ultime novità della moda. Dalla collezione Sanguine Paris, disegnata e curata da Sebastian Sato, arriva un nuovo audace ensemble di abiti con una sfumatura chiara e scura. Vernice per il viso opzionale."
+					},
+					"german": {
+						"2052724919": "Der Sanguine Anzug",
+						"3635577953": "Zeigen Sie sich auf dem Laufsteg mit der neuesten Mode. Aus der von Sebastian Sato entworfenen und kuratierten Sanguine Paris-Kollektion kommt ein gewagtes neues Anzug-Ensemble mit einem knackigen Hell-Dunkel-Verlauf. Gesichtsbemalung optional."
+					},
+					"spanish": {
+						"2052724919": "Traje Sanguine",
+						"3635577953": "Lúcete en la pasarela con lo último en moda. De la colección Sanguine Paris, diseñada y comisariada por Sebastian Sato, llega un nuevo y atrevido conjunto de traje con un nítido degradado de claro a oscuro. Pintura facial opcional."
+					},
+					"russian": {
+						"2052724919": "Костюм «Сэнгвин»",
+						"3635577953": "Продемонстрируйте себя на подиуме, используя последние достижения моды. Из коллекции Сэнгвин Париж, разработанной и курируемой Себастьян Сато, вышел новый смелый ансамбль костюма с четким градиентом от светлого к темному. Краска для лица не обязательна."
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "Midnight Black Suit",
+			"type": "select",
+			"contentFolders": ["replace/midnightblack"],
+			"blobsFolders": ["blobs/midnightblack"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"972885031": "Strut your stuff on the catwalk with the latest in fashion. From the Sanguine Paris collection designed and curated by Sebastian Sato comes a bold new suit ensemble with a crisp light to dark gradient. Face paint optional.",
+						"2762453674": "Sanguine Suit"
+					},
+					"french": {
+						"972885031": "Faites-vous remarquer sur les podiums avec les dernières nouveautés de la mode. La collection Sanguine Paris, conçue et préparée par Sebastian Sato, propose un nouvel ensemble de costumes audacieux avec un dégradé clair-foncé. Peinture faciale en option.",
+						"2762453674": "Le costume Sanguine"
+					},
+					"italian": {
+						"972885031": "Sfoggiate le vostre abilità in passerella con le ultime novità della moda. Dalla collezione Sanguine Paris, disegnata e curata da Sebastian Sato, arriva un nuovo audace ensemble di abiti con una sfumatura chiara e scura. Vernice per il viso opzionale.",
+						"2762453674": "Abito Sanguine"
+					},
+					"german": {
+						"972885031": "Zeigen Sie sich auf dem Laufsteg mit der neuesten Mode. Aus der von Sebastian Sato entworfenen und kuratierten Sanguine Paris-Kollektion kommt ein gewagtes neues Anzug-Ensemble mit einem knackigen Hell-Dunkel-Verlauf. Gesichtsbemalung optional.",
+						"2762453674": "Der Sanguine Anzug"
+					},
+					"spanish": {
+						"972885031": "Lúcete en la pasarela con lo último en moda. De la colección Sanguine Paris, diseñada y comisariada por Sebastian Sato, llega un nuevo y atrevido conjunto de traje con un nítido degradado de claro a oscuro. Pintura facial opcional.",
+						"2762453674": "Traje Sanguine"
+					},
+					"russian": {
+						"972885031": "Продемонстрируйте себя на подиуме, используя последние достижения моды. Из коллекции Сэнгвин Париж, разработанной и курируемой Себастьян Сато, вышел новый смелый ансамбль костюма с четким градиентом от светлого к темному. Краска для лица не обязательна.",
+						"2762453674": "Костюм «Сэнгвин»"
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "Summer Suit with Gloves",
+			"type": "select",
+			"contentFolders": ["replace/marrakesh"],
+			"blobsFolders": ["blobs/marrakesh"],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"1490534793": "Sanguine Suit",
+						"4241939803": "Strut your stuff on the catwalk with the latest in fashion. From the Sanguine Paris collection designed and curated by Sebastian Sato comes a bold new suit ensemble with a crisp light to dark gradient. Face paint optional."
+					},
+					"french": {
+						"1490534793": "Le costume Sanguine",
+						"4241939803": "Faites-vous remarquer sur les podiums avec les dernières nouveautés de la mode. La collection Sanguine Paris, conçue et préparée par Sebastian Sato, propose un nouvel ensemble de costumes audacieux avec un dégradé clair-foncé. Peinture faciale en option."
+					},
+					"italian": {
+						"1490534793": "Abito Sanguine",
+						"4241939803": "Sfoggiate le vostre abilità in passerella con le ultime novità della moda. Dalla collezione Sanguine Paris, disegnata e curata da Sebastian Sato, arriva un nuovo audace ensemble di abiti con una sfumatura chiara e scura. Vernice per il viso opzionale."
+					},
+					"german": {
+						"1490534793": "Der Sanguine Anzug",
+						"4241939803": "Zeigen Sie sich auf dem Laufsteg mit der neuesten Mode. Aus der von Sebastian Sato entworfenen und kuratierten Sanguine Paris-Kollektion kommt ein gewagtes neues Anzug-Ensemble mit einem knackigen Hell-Dunkel-Verlauf. Gesichtsbemalung optional."
+					},
+					"spanish": {
+						"1490534793": "Traje Sanguine",
+						"4241939803": "Lúcete en la pasarela con lo último en moda. De la colección Sanguine Paris, diseñada y comisariada por Sebastian Sato, llega un nuevo y atrevido conjunto de traje con un nítido degradado de claro a oscuro. Pintura facial opcional."
+					},
+					"russian": {
+						"1490534793": "Костюм «Сэнгвин»",
+						"4241939803": "Продемонстрируйте себя на подиуме, используя последние достижения моды. Из коллекции Сэнгвин Париж, разработанной и курируемой Себастьян Сато, вышел новый смелый ансамбль костюма с четким градиентом от светлого к темному. Краска для лица не обязательна."
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "Tropical Suit",
+			"type": "select",
+			"contentFolders": ["replace/tropicalsuit"],
+			"blobsFolders": ["blobs/tropicalsuit"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2053833950": "Strut your stuff on the catwalk with the latest in fashion. From the Sanguine Paris collection designed and curated by Sebastian Sato comes a bold new suit ensemble with a crisp light to dark gradient. Face paint optional.",
+						"2347383834": "Sanguine Suit"
+					},
+					"french": {
+						"2053833950": "Faites-vous remarquer sur les podiums avec les dernières nouveautés de la mode. La collection Sanguine Paris, conçue et préparée par Sebastian Sato, propose un nouvel ensemble de costumes audacieux avec un dégradé clair-foncé. Peinture faciale en option.",
+						"2347383834": "Le costume Sanguine"
+					},
+					"italian": {
+						"2053833950": "Sfoggiate le vostre abilità in passerella con le ultime novità della moda. Dalla collezione Sanguine Paris, disegnata e curata da Sebastian Sato, arriva un nuovo audace ensemble di abiti con una sfumatura chiara e scura. Vernice per il viso opzionale.",
+						"2347383834": "Abito Sanguine"
+					},
+					"german": {
+						"2053833950": "Zeigen Sie sich auf dem Laufsteg mit der neuesten Mode. Aus der von Sebastian Sato entworfenen und kuratierten Sanguine Paris-Kollektion kommt ein gewagtes neues Anzug-Ensemble mit einem knackigen Hell-Dunkel-Verlauf. Gesichtsbemalung optional.",
+						"2347383834": "Der Sanguine Anzug"
+					},
+					"spanish": {
+						"2053833950": "Lúcete en la pasarela con lo último en moda. De la colección Sanguine Paris, diseñada y comisariada por Sebastian Sato, llega un nuevo y atrevido conjunto de traje con un nítido degradado de claro a oscuro. Pintura facial opcional.",
+						"2347383834": "Traje Sanguine"
+					},
+					"russian": {
+						"2053833950": "Продемонстрируйте себя на подиуме, используя последние достижения моды. Из коллекции Сэнгвин Париж, разработанной и курируемой Себастьян Сато, вышел новый смелый ансамбль костюма с четким градиентом от светлого к темному. Краска для лица не обязательна.",
+						"2347383834": "Костюм «Сэнгвин»"
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "Smart Casual Suit",
+			"type": "select",
+			"contentFolders": ["replace/smartcasual"],
+			"blobsFolders": ["blobs/smartcasual"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"252086724": "Sanguine Suit",
+						"678625422": "Strut your stuff on the catwalk with the latest in fashion. From the Sanguine Paris collection designed and curated by Sebastian Sato comes a bold new suit ensemble with a crisp light to dark gradient. Face paint optional."
+					},
+					"french": {
+						"252086724": "Le costume Sanguine",
+						"678625422": "Faites-vous remarquer sur les podiums avec les dernières nouveautés de la mode. La collection Sanguine Paris, conçue et préparée par Sebastian Sato, propose un nouvel ensemble de costumes audacieux avec un dégradé clair-foncé. Peinture faciale en option."
+					},
+					"italian": {
+						"252086724": "Abito Sanguine",
+						"678625422": "Sfoggiate le vostre abilità in passerella con le ultime novità della moda. Dalla collezione Sanguine Paris, disegnata e curata da Sebastian Sato, arriva un nuovo audace ensemble di abiti con una sfumatura chiara e scura. Vernice per il viso opzionale."
+					},
+					"german": {
+						"252086724": "Der Sanguine Anzug",
+						"678625422": "Zeigen Sie sich auf dem Laufsteg mit der neuesten Mode. Aus der von Sebastian Sato entworfenen und kuratierten Sanguine Paris-Kollektion kommt ein gewagtes neues Anzug-Ensemble mit einem knackigen Hell-Dunkel-Verlauf. Gesichtsbemalung optional."
+					},
+					"spanish": {
+						"252086724": "Traje Sanguine",
+						"678625422": "Lúcete en la pasarela con lo último en moda. De la colección Sanguine Paris, diseñada y comisariada por Sebastian Sato, llega un nuevo y atrevido conjunto de traje con un nítido degradado de claro a oscuro. Pintura facial opcional."
+					},
+					"russian": {
+						"252086724": "Костюм «Сэнгвин»",
+						"678625422": "Продемонстрируйте себя на подиуме, используя последние достижения моды. Из коллекции Сэнгвин Париж, разработанной и курируемой Себастьян Сато, вышел новый смелый ансамбль костюма с четким градиентом от светлого к темному. Краска для лица не обязательна."
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "The Raver",
+			"type": "select",
+			"contentFolders": ["replace/raver"],
+			"blobsFolders": ["blobs/raver"],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"3362995256": "Sanguine Suit",
+						"4079878924": "Strut your stuff on the catwalk with the latest in fashion. From the Sanguine Paris collection designed and curated by Sebastian Sato comes a bold new suit ensemble with a crisp light to dark gradient. Face paint optional."
+					},
+					"french": {
+						"3362995256": "Le costume Sanguine",
+						"4079878924": "Faites-vous remarquer sur les podiums avec les dernières nouveautés de la mode. La collection Sanguine Paris, conçue et préparée par Sebastian Sato, propose un nouvel ensemble de costumes audacieux avec un dégradé clair-foncé. Peinture faciale en option."
+					},
+					"italian": {
+						"3362995256": "Abito Sanguine",
+						"4079878924": "Sfoggiate le vostre abilità in passerella con le ultime novità della moda. Dalla collezione Sanguine Paris, disegnata e curata da Sebastian Sato, arriva un nuovo audace ensemble di abiti con una sfumatura chiara e scura. Vernice per il viso opzionale."
+					},
+					"german": {
+						"3362995256": "Der Sanguine Anzug",
+						"4079878924": "Zeigen Sie sich auf dem Laufsteg mit der neuesten Mode. Aus der von Sebastian Sato entworfenen und kuratierten Sanguine Paris-Kollektion kommt ein gewagtes neues Anzug-Ensemble mit einem knackigen Hell-Dunkel-Verlauf. Gesichtsbemalung optional."
+					},
+					"spanish": {
+						"3362995256": "Traje Sanguine",
+						"4079878924": "Lúcete en la pasarela con lo último en moda. De la colección Sanguine Paris, diseñada y comisariada por Sebastian Sato, llega un nuevo y atrevido conjunto de traje con un nítido degradado de claro a oscuro. Pintura facial opcional."
+					},
+					"russian": {
+						"3362995256": "Костюм «Сэнгвин»",
+						"4079878924": "Продемонстрируйте себя на подиуме, используя последние достижения моды. Из коллекции Сэнгвин Париж, разработанной и курируемой Себастьян Сато, вышел новый смелый ансамбль костюма с четким градиентом от светлого к темному. Краска для лица не обязательна."
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "Lucky Ducky",
+			"type": "select",
+			"contentFolders": ["replace/luckyducky"],
+			"blobsFolders": ["blobs/luckyducky"],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"2681050670": "Strut your stuff on the catwalk with the latest in fashion. From the Sanguine Paris collection designed and curated by Sebastian Sato comes a bold new suit ensemble with a crisp light to dark gradient. Face paint optional.",
+						"2760943898": "Sanguine Suit"
+					},
+					"french": {
+						"2681050670": "Faites-vous remarquer sur les podiums avec les dernières nouveautés de la mode. La collection Sanguine Paris, conçue et préparée par Sebastian Sato, propose un nouvel ensemble de costumes audacieux avec un dégradé clair-foncé. Peinture faciale en option.",
+						"2760943898": "Le costume Sanguine"
+					},
+					"italian": {
+						"2681050670": "Sfoggiate le vostre abilità in passerella con le ultime novità della moda. Dalla collezione Sanguine Paris, disegnata e curata da Sebastian Sato, arriva un nuovo audace ensemble di abiti con una sfumatura chiara e scura. Vernice per il viso opzionale.",
+						"2760943898": "Abito Sanguine"
+					},
+					"german": {
+						"2681050670": "Zeigen Sie sich auf dem Laufsteg mit der neuesten Mode. Aus der von Sebastian Sato entworfenen und kuratierten Sanguine Paris-Kollektion kommt ein gewagtes neues Anzug-Ensemble mit einem knackigen Hell-Dunkel-Verlauf. Gesichtsbemalung optional.",
+						"2760943898": "Der Sanguine Anzug"
+					},
+					"spanish": {
+						"2681050670": "Lúcete en la pasarela con lo último en moda. De la colección Sanguine Paris, diseñada y comisariada por Sebastian Sato, llega un nuevo y atrevido conjunto de traje con un nítido degradado de claro a oscuro. Pintura facial opcional.",
+						"2760943898": "Traje Sanguine"
+					},
+					"russian": {
+						"2681050670": "Продемонстрируйте себя на подиуме, используя последние достижения моды. Из коллекции Сэнгвин Париж, разработанной и курируемой Себастьян Сато, вышел новый смелый ансамбль костюма с четким градиентом от светлого к темному. Краска для лица не обязательна.",
+						"2760943898": "Костюм «Сэнгвин»"
+					}
+				}
+			}
+		},
+		{
+			"group": "Variant",
+			"name": "Facepaint",
+			"type": "checkbox",
+			"contentFolders": ["variant/facepaint"],
+			"tooltip": "Use Helmut Kruger-style facepaint.",
+			"image": "facepaint.jpg",
+			"dependencies": ["00685B218981D8CB"]
+		}
+	]
 }
