@@ -1,11 +1,11 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"id": "Jojje.SanguineSuit",
 	"name": "Sanguine Suit",
 	"description": "Strut your stuff on the catwalk with the latest in fashion. From the Sanguine Paris collection designed and curated by Sebastian Sato comes a bold new suit ensemble with a crisp light to dark gradient. Face paint optional.",
 	"authors": ["Jojje", "sallylikesgore"],
-	"frameworkVersion": "2.25.1",
+	"frameworkVersion": "2.32.3",
 	"contentFolders": ["base"],
 	"options": [
 		{
@@ -511,5 +511,6 @@
 			"image": "facepaint.jpg",
 			"dependencies": ["00685B218981D8CB"]
 		}
-	]
+	],
+	"updateCheck": "https://github.com/JojjeE/h3-sanguine-suit/releases/latest/download/updates.json"
 }
