@@ -510,6 +510,22 @@
 			"tooltip": "Use Helmut Kruger-style facepaint.",
 			"image": "facepaint.jpg",
 			"dependencies": ["00685B218981D8CB"]
+		},
+		{
+			"group": "Fit",
+			"name": "Regular fit (Default)",
+			"type": "select",
+			"enabledByDefault": true,
+			"image": "regularfit.jpg",
+			"tooltip": "Use a regular fit suit."
+		},
+		{
+			"group": "Fit",
+			"name": "Slim fit",
+			"type": "select",
+			"image": "slimfit.jpg",
+			"tooltip": "Use a slim fit suit.",
+			"contentFolders": ["variant/slim_fit"]
 		}
 	],
 	"updateCheck": "https://github.com/JojjeE/h3-sanguine-suit/releases/latest/download/updates.json"
