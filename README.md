@@ -6,4 +6,4 @@ Strut your stuff on the catwalk with the latest in fashion. From the Sanguine Pa
 
 ---
 
-`Jojje.SanguineSuit` v1.1.1, by Jojje, sallylikesgore. This README was automatically generated from the mod's manifest.
+`Jojje.SanguineSuit` v1.2.0, by Jojje, sallylikesgore. This README was automatically generated from the mod's manifest.
