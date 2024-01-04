@@ -526,6 +526,20 @@
 			"image": "slimfit.jpg",
 			"tooltip": "Use a slim fit suit.",
 			"contentFolders": ["variant/slim_fit"]
+		},
+		{
+			"group": "Gloves",
+			"name": "Driving gloves (Default)",
+			"type": "select",
+			"tooltip": "Use driving gloves.",
+			"enabledByDefault": true
+		},
+		{
+			"group": "Gloves",
+			"name": "Leather gloves",
+			"type": "select",
+			"tooltip": "Use leather gloves.",
+			"contentFolders": ["variant/gloves/leather"]
 		}
 	],
 	"updateCheck": "https://github.com/JojjeE/h3-sanguine-suit/releases/latest/download/updates.json"
