@@ -1,0 +1,26 @@
+{
+	"factory": "00EF9DB22DE35D85",
+	"blueprint": "00E910C0F204AFA4",
+	"patch": [
+		{ "PatchEntity": ["a080a4889f42c006", { "SetName": "Gloves_Leather" }] },
+		{
+			"PatchEntity": [
+				"a080a4889f42c006",
+				{
+					"SetFactory": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_hands.template?/gloves_leather.entitytemplate].pc_entitytype"
+				}
+			]
+		},
+		{
+			"PatchEntity": [
+				"a080a4889f42c006",
+				{
+					"SetBlueprint": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_hands.template?/gloves_leather.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{ "PatchEntity": ["a080a4889f42c006", { "RemoveProperty": "Texture2D_03" }] },
+		{ "PatchEntity": ["a080a4889f42c006", { "RemoveProperty": "ConstantVector1D_01_Value" }] }
+	],
+	"patchVersion": 7
+}

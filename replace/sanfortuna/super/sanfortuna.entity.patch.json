@@ -1,0 +1,9 @@
+{
+	"factory": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype",
+	"blueprint": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entityblueprint",
+	"patch": [
+		{ "PatchEntity": ["254c878e6efa979f", { "SetFactory": "0033F5E0547F5073" }] },
+		{ "PatchEntity": ["254c878e6efa979f", { "SetBlueprint": "00D95B95106B3D18" }] }
+	],
+	"patchVersion": 7
+}

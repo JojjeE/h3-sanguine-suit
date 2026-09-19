@@ -1,0 +1,41 @@
+{
+	"factory": "00EF9DB22DE35D85",
+	"blueprint": "00E910C0F204AFA4",
+	"patch": [
+		{
+			"PatchEntity": [
+				"2246882d05d9e7cf",
+				{
+					"PatchPropertyValue": [
+						"m_pMeshResource",
+						{
+							"Set": {
+								"type": "ZRuntimeResourceID",
+								"value": { "resource": "0094D7A754C5B22A", "type": "normal" }
+							}
+						},
+						false
+					]
+				}
+			]
+		},
+		{
+			"PatchEntity": [
+				"dbb4bdbc8b811e80",
+				{
+					"PatchPropertyValue": [
+						"m_pMeshResource",
+						{
+							"Set": {
+								"type": "ZRuntimeResourceID",
+								"value": { "resource": "003C7E4E60E94612", "type": "normal" }
+							}
+						},
+						false
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 7
+}

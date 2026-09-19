@@ -1,0 +1,25 @@
+{
+	"factory": "00EF9DB22DE35D85",
+	"blueprint": "00E910C0F204AFA4",
+	"patch": [
+		{ "PatchEntity": ["feedf511f3cb15cd", { "AddProperty": ["Texture2D_01_enab", { "type": "bool", "value": true }] }] },
+		{
+			"PatchEntity": [
+				"feedf511f3cb15cd",
+				{
+					"AddProperty": [
+						"Texture2D_01",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/_pro/characters/assets/_genericparts/fashionmodels/textures/male_reg_fashionmodel_02_head_03.texture?/makeup_47.tex](ascolormap).pc_tex",
+								"type": "normal"
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 7
+}

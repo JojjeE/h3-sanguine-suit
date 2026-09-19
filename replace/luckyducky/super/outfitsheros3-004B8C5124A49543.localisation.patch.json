@@ -1,0 +1,21 @@
+{
+	"id": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_hero_s3.sweetmenutext].pc_localized-textlist",
+	"lines": {
+		"CHAR_REWARD_GLOBAL_HERO_DUCKYSUIT_M_DESC_7459C8B3-4F09-4D72-BF3F-84BAB1F9A2FF": {
+			"english": "Strut your stuff on the catwalk with the latest in fashion. From the Sanguine Paris collection designed and curated by Sebastian Sato comes a bold new suit ensemble with a crisp light to dark gradient. Face paint optional.",
+			"french": "Faites-vous remarquer sur les podiums avec les dernières nouveautés de la mode. La collection Sanguine Paris, conçue et préparée par Sebastian Sato, propose un nouvel ensemble de costumes audacieux avec un dégradé clair-foncé. Peinture faciale en option.",
+			"german": "Zeigen Sie sich auf dem Laufsteg mit der neuesten Mode. Aus der von Sebastian Sato entworfenen und kuratierten Sanguine Paris-Kollektion kommt ein gewagtes neues Anzug-Ensemble mit einem knackigen Hell-Dunkel-Verlauf. Gesichtsbemalung optional.",
+			"italian": "Sfoggiate le vostre abilità in passerella con le ultime novità della moda. Dalla collezione Sanguine Paris, disegnata e curata da Sebastian Sato, arriva un nuovo audace ensemble di abiti con una sfumatura chiara e scura. Vernice per il viso opzionale.",
+			"russian": "Продемонстрируйте себя на подиуме, используя последние достижения моды. Из коллекции Сэнгвин Париж, разработанной и курируемой Себастьян Сато, вышел новый смелый ансамбль костюма с четким градиентом от светлого к темному. Краска для лица не обязательна.",
+			"spanish": "Lúcete en la pasarela con lo último en moda. De la colección Sanguine Paris, diseñada y comisariada por Sebastian Sato, llega un nuevo y atrevido conjunto de traje con un nítido degradado de claro a oscuro. Pintura facial opcional."
+		},
+		"CHAR_REWARD_GLOBAL_HERO_DUCKYSUIT_M_NAME_7459C8B3-4F09-4D72-BF3F-84BAB1F9A2FF": {
+			"english": "Sanguine Suit",
+			"french": "Le costume Sanguine",
+			"german": "Der Sanguine Anzug",
+			"italian": "Abito Sanguine",
+			"russian": "Костюм «Сэнгвин»",
+			"spanish": "Traje Sanguine"
+		}
+	}
+}
