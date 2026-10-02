@@ -48,7 +48,7 @@
 					}
 				},
 				{
-					"id": "sanguine-install-casual",
+					"id": "sanguine-install-bangkok",
 					"name": "Casual Suit with Gloves",
 					"data": {
 						"contentFolders": ["replace/bangkok"],
@@ -56,7 +56,7 @@
 					}
 				},
 				{
-					"id": "sanguine-install-italian",
+					"id": "sanguine-install-sapienza",
 					"name": "Italian Suit with Gloves",
 					"data": {
 						"contentFolders": ["replace/sapienza"],
@@ -64,7 +64,7 @@
 					}
 				},
 				{
-					"id": "sanguine-install-floridafit",
+					"id": "sanguine-install-miami",
 					"name": "Florida Fit with Gloves",
 					"data": {
 						"contentFolders": ["replace/miami"],
@@ -72,7 +72,7 @@
 					}
 				},
 				{
-					"id": "sanguine-install-casualtourist",
+					"id": "sanguine-install-sanfortuna",
 					"name": "Casual Tourist with Gloves",
 					"data": {
 						"contentFolders": ["replace/sanfortuna"],
@@ -112,7 +112,7 @@
 					}
 				},
 				{
-					"id": "sanguine-install-summersuit",
+					"id": "sanguine-install-marrakesh",
 					"name": "Summer Suit with Gloves",
 					"data": {
 						"contentFolders": ["replace/marrakesh"],
@@ -120,7 +120,7 @@
 					}
 				},
 				{
-					"id": "sanguine-install-tropical",
+					"id": "sanguine-install-tropicalsuit",
 					"name": "Tropical Suit",
 					"data": {
 						"contentFolders": ["replace/tropicalsuit"],
@@ -144,7 +144,7 @@
 					}
 				},
 				{
-					"id": "sanguine-install-ducky",
+					"id": "sanguine-install-luckyducky",
 					"name": "Lucky Ducky",
 					"data": {
 						"contentFolders": ["replace/luckyducky"],
